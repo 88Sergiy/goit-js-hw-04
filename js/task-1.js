@@ -1,7 +1,7 @@
 function isEnoughCapacity(products, containerSize) {
-    const totalProducts = 0;
+    let totalProducts = 0;
     
-    for (const key in products) {
+    for (let key in products) {
         totalProducts += products[key];
     }
 
